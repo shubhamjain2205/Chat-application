@@ -1,0 +1,104 @@
+*{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+body{
+    /* background-image: url(/img/bg.jpg); */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/bg.jpg);
+    filter: brightness(120%);
+    overflow: hidden;
+    /* display: flex; */
+    
+}
+
+h1{
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+        backdrop-filter: blur(5px);
+
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 100px;
+}
+
+.container{
+    max-width: 955px;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin: auto;
+    height: 60vh;
+    padding: 25px;
+    overflow-y: auto;
+    /* overflow: hidden; */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+    
+}
+
+.message{
+    background-color: #dadada;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    
+}
+
+.left{
+    float: left;
+    clear: both;
+    
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    text-align: center;
+    max-width: 980px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+#messageInp{
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px;
+    margin: 10px;
+    font-size: 22px;
+    
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    /* padding: 10px; */
+    height: 38px;
+    width: 66px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
